@@ -1,7 +1,5 @@
 This repository contains the official code implementation for my Master's Thesis: "Approximate Bayesian Inference via Normalizing Flows and Variational Autoencoders for Parameter Estimation".
 
-This work builds upon the foundational deep generative framework proposed by Giacomo Bottacini and advances the field of Simulation-Based Inference (SBI) applied to Structural Health Monitoring (SHM).
-
 The accurate estimation of physical parameters from observational data (the inverse problem) is a fundamental challenge in engineering. While Bayesian inference provides a rigorous framework for characterizing parameter uncertainty, it is often limited by the prohibitive computational cost of evaluating high-fidelity physical simulators (e.g., Finite Element Models), rendering the exact likelihood function intractable.
 
 This project decouples the expensive simulator from the inference loop using Deep Generative Models:
